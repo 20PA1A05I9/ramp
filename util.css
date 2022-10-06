@@ -1,0 +1,30 @@
+.flex-all-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2&family=Poppins:wght@300&display=swap');
+.btn {
+    color: #2874f0;
+    background-color: white;
+    width: 60px;
+    border: 2px solid white;
+    padding: 2px 4px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: lighter;
+    font-family: 'Poppins', sans-serif;
+}
+
+.btn:hover {
+    color: #2874f0;
+    background-color: white;
+    width: 60px;
+    border: 2px solid white;
+    padding: 2px 4px;
+    border-radius: 4px;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    font-weight: bolder;
+}

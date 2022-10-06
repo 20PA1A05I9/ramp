@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2&family=Poppins:wght@300&display=swap');
+header {
+    height: 11vh;
+    background-color: #2874f0;
+    border: 2px solid red;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    display: flex;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 88px;
+    padding: 0 25px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 10vh;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 0 23px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: cyan;
+    font-weight: bolder;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+}
+
+.search input {
+    width: 450px;
+    height: 25px;
+    border-radius: 4px;
+    margin: 0px 5px 0px 10px;
+}
+
+.container {
+    min-height: 80vh;
+}
+
+.slider {
+    display: flex;
+    justify-content: center;
+}
+
+.lines {
+    font-family: 'Poppins', sans-serif;
+}
+
+.card {
+    margin-left: 10vw;
+}
+
+.card-items {
+    display: flex;
+    flex-direction: row;
+    width: 8vw;
+}
+
+.item1,
+.item2,
+.item3,
+.item4,
+.item5,
+.item6,
+.item7,
+.item8 {
+    margin-right: 25px;
+}
+
+.textdesc {
+    text-align: center;
+}
+
+footer {
+    height: 10vh;
+    background-color: black;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.ramp {
+    vertical-align: text-bottom;
+}
